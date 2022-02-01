@@ -1,0 +1,109 @@
+* {
+    /* border: 3px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f1c0d;
+}
+
+body {
+    background-color: #FEE9FC;
+}
+
+#header {
+    background-color: #FFC5E5;
+    /* position: absolute;
+    left: 0; */
+    top: 0;
+    /* display: inline-block; */
+    width: 100%;
+    height: 100px;
+}
+#header nav {
+    display: inline-block;
+    /* width: 89%; */
+    vertical-align: center;
+}
+
+#lista_cabeçalho { 
+    display: inline-block;
+    /* width: 80%; */
+    vertical-align: auto;
+}
+
+#lista_cabeçalho h3 {
+    display: inline-block;
+    margin-right: 100px;
+    vertical-align: auto;
+}
+
+#name {
+   text-align: right;  
+   /* display: inline-block; */
+   float: right;
+}
+
+.seção {
+    margin: 20px 20px 0px 2px;
+}
+
+#seção1 h2 {
+    margin-left: 20px;
+    height: 32px;
+}
+
+#paragrafo_seção1 {
+    height: 20px;
+}
+
+#seção2 h2 {
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+.foto {
+    width: 700px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+   
+/* #artigo_bolo {
+    width: 1000px;
+    height: 500; */
+    /* display: inline-block; */
+  
+      
+.titulo {
+   position: relative;
+   width: 800px;
+   display: inline-block;
+   vertical-align: middle;
+   text-align: center;
+   font-size: 30px;
+   /* display: inline-block;
+   width: 400px;
+   position: relative;
+   text-align: center;
+   line-height: 500px; */
+}  
+
+.iconeRS {
+    width: 64px;
+    margin: 20px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#rodape {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    margin-top: 10px;
+    background-color: #FFC5E5;
+}
+#rodape p{
+    margin: 10px 0px 0px 10px;
+}
